@@ -69,7 +69,7 @@ end)
 cat.Size = Vector3.new(6.502, 11.339, 14.281)
 cat.CFrame = CFrame.new(math.random(-1000,1000),math.random(-1000,1000),math.random(-1000,1000))
 cat = Instance.new("Part",workspace)
-mesh = Instance.new("SpecialMesh",cat
+mesh = Instance.new("SpecialMesh",cat)
 mesh.MeshType = Enum.MeshType.FileMesh
 mesh.MeshId = "rbxassetid://891312072"
 mesh.TextureId = "rbxassetid://891312078"
