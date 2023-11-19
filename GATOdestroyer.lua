@@ -42,7 +42,7 @@ cat = Instance.new("Part",workspace)
 mesh = Instance.new("SpecialMesh",cat)
 mesh.MeshType = Enum.MeshType.FileMesh
 mesh.MeshId = "rbxassetid://11390853367"
---mesh.TextureId = "rbxassetid://891312078"
+mesh.TextureId = "rbxassetid://4934166532"
 cat.Touched:connect(function(otherpart)
 otherpart:Destroy()
 end)
@@ -51,8 +51,8 @@ cat.CFrame = CFrame.new(math.random(-1000,1000),math.random(-1000,1000),math.ran
 cat = Instance.new("Part",workspace)
 mesh = Instance.new("SpecialMesh",cat)
 mesh.MeshType = Enum.MeshType.FileMesh
-mesh.MeshId = "rbxassetid://891312072"
---mesh.TextureId = "rbxassetid://891312078"
+mesh.MeshId = "rbxassetid://4934166503"
+mesh.TextureId = "rbxassetid://4934166532"
 cat.Touched:connect(function(otherpart)
 otherpart:Destroy()
 end)
@@ -61,8 +61,8 @@ cat.CFrame = CFrame.new(math.random(-1000,1000),math.random(-1000,1000),math.ran
 cat = Instance.new("Part",workspace)
 mesh = Instance.new("SpecialMesh",cat)
 mesh.MeshType = Enum.MeshType.FileMesh
-mesh.MeshId = "rbxassetid://891312072"
-mesh.TextureId = "rbxassetid://891312078"
+mesh.MeshId = "rbxassetid://4934166503"
+mesh.TextureId = "rbxassetid://4934166532"
 cat.Touched:connect(function(otherpart)
 otherpart:Destroy()
 end)
@@ -71,8 +71,8 @@ cat.CFrame = CFrame.new(math.random(-1000,1000),math.random(-1000,1000),math.ran
 cat = Instance.new("Part",workspace)
 mesh = Instance.new("SpecialMesh",cat)
 mesh.MeshType = Enum.MeshType.FileMesh
-mesh.MeshId = "rbxassetid://891312072"
-mesh.TextureId = "rbxassetid://891312078"
+mesh.MeshId = "rbxassetid://4934166503"
+mesh.TextureId = "rbxassetid://4934166532"
 cat.Touched:connect(function(otherpart)
 otherpart:Destroy()
 end)
@@ -81,8 +81,8 @@ cat.CFrame = CFrame.new(math.random(-1000,1000),math.random(-1000,1000),math.ran
 cat = Instance.new("Part",workspace)
 mesh = Instance.new("SpecialMesh",cat)
 mesh.MeshType = Enum.MeshType.FileMesh
-mesh.MeshId = "rbxassetid://891312072"
-mesh.TextureId = "rbxassetid://891312078"
+mesh.MeshId = "rbxassetid://4934166503"
+mesh.TextureId = "rbxassetid://4934166532"
 cat.Touched:connect(function(otherpart)
 otherpart:Destroy()
 end)
@@ -91,8 +91,8 @@ cat.CFrame = CFrame.new(math.random(-1000,1000),math.random(-1000,1000),math.ran
 cat = Instance.new("Part",workspace)
 mesh = Instance.new("SpecialMesh",cat)
 mesh.MeshType = Enum.MeshType.FileMesh
-mesh.MeshId = "rbxassetid://891312072"
-mesh.TextureId = "rbxassetid://891312078"
+mesh.MeshId = "rbxassetid://4934166503"
+mesh.TextureId = "rbxassetid://4934166532"
 cat.Touched:connect(function(otherpart)
 otherpart:Destroy()
 end)
@@ -101,8 +101,8 @@ cat.CFrame = CFrame.new(math.random(-1000,1000),math.random(-1000,1000),math.ran
 cat = Instance.new("Part",workspace)
 mesh = Instance.new("SpecialMesh",cat)
 mesh.MeshType = Enum.MeshType.FileMesh
-mesh.MeshId = "rbxassetid://891312072"
-mesh.TextureId = "rbxassetid://891312078"
+mesh.MeshId = "rbxassetid://4934166503"
+mesh.TextureId = "rbxassetid://4934166532"
 cat.Touched:connect(function(otherpart)
 otherpart:Destroy()
 end)
@@ -111,8 +111,8 @@ cat.CFrame = CFrame.new(math.random(-1000,1000),math.random(-1000,1000),math.ran
 cat = Instance.new("Part",workspace)
 mesh = Instance.new("SpecialMesh",cat)
 mesh.MeshType = Enum.MeshType.FileMesh
-mesh.MeshId = "rbxassetid://891312072"
-mesh.TextureId = "rbxassetid://891312078"
+mesh.MeshId = "rbxassetid://4934166503"
+mesh.TextureId = "rbxassetid://4934166532"
 cat.Touched:connect(function(otherpart)
 otherpart:Destroy()
 end)
@@ -121,8 +121,8 @@ cat.CFrame = CFrame.new(math.random(-1000,1000),math.random(-1000,1000),math.ran
 cat = Instance.new("Part",workspace)
 mesh = Instance.new("SpecialMesh",cat)
 mesh.MeshType = Enum.MeshType.FileMesh
-mesh.MeshId = "rbxassetid://891312072"
-mesh.TextureId = "rbxassetid://891312078"
+mesh.MeshId = "rbxassetid://4934166503"
+mesh.TextureId = "rbxassetid://4934166532"
 cat.Touched:connect(function(otherpart)
 otherpart:Destroy()
 end)
@@ -131,8 +131,8 @@ cat.CFrame = CFrame.new(math.random(-1000,1000),math.random(-1000,1000),math.ran
 cat = Instance.new("Part",workspace)
 mesh = Instance.new("SpecialMesh",cat)
 mesh.MeshType = Enum.MeshType.FileMesh
-mesh.MeshId = "rbxassetid://891312072"
-mesh.TextureId = "rbxassetid://891312078"
+mesh.MeshId = "rbxassetid://4934166503"
+mesh.TextureId = "rbxassetid://4934166532"
 cat.Touched:connect(function(otherpart)
 otherpart:Destroy()
 end)
@@ -141,8 +141,8 @@ cat.CFrame = CFrame.new(math.random(-1000,1000),math.random(-1000,1000),math.ran
 cat = Instance.new("Part",workspace)
 mesh = Instance.new("SpecialMesh",cat)
 mesh.MeshType = Enum.MeshType.FileMesh
-mesh.MeshId = "rbxassetid://891312072"
-mesh.TextureId = "rbxassetid://891312078"
+mesh.MeshId = "rbxassetid://4934166503"
+mesh.TextureId = "rbxassetid://4934166532"
 cat.Touched:connect(function(otherpart)
 otherpart:Destroy()
 end)
@@ -151,8 +151,8 @@ cat.CFrame = CFrame.new(math.random(-1000,1000),math.random(-1000,1000),math.ran
 cat = Instance.new("Part",workspace)
 mesh = Instance.new("SpecialMesh",cat)
 mesh.MeshType = Enum.MeshType.FileMesh
-mesh.MeshId = "rbxassetid://891312072"
-mesh.TextureId = "rbxassetid://891312078"
+mesh.MeshId = "rbxassetid://4934166503"
+mesh.TextureId = "rbxassetid://4934166532"
 cat.Touched:connect(function(otherpart)
 otherpart:Destroy()
 end)
@@ -161,8 +161,8 @@ cat.CFrame = CFrame.new(math.random(-1000,1000),math.random(-1000,1000),math.ran
 cat = Instance.new("Part",workspace)
 mesh = Instance.new("SpecialMesh",cat)
 mesh.MeshType = Enum.MeshType.FileMesh
-mesh.MeshId = "rbxassetid://891312072"
-mesh.TextureId = "rbxassetid://891312078"
+mesh.MeshId = "rbxassetid://4934166503"
+mesh.TextureId = "rbxassetid://4934166532"
 cat.Touched:connect(function(otherpart)
 otherpart:Destroy()
 end)
@@ -171,8 +171,8 @@ cat.CFrame = CFrame.new(math.random(-1000,1000),math.random(-1000,1000),math.ran
 cat = Instance.new("Part",workspace)
 mesh = Instance.new("SpecialMesh",cat)
 mesh.MeshType = Enum.MeshType.FileMesh
-mesh.MeshId = "rbxassetid://891312072"
-mesh.TextureId = "rbxassetid://891312078"
+mesh.MeshId = "rbxassetid://4934166503"
+mesh.TextureId = "rbxassetid://4934166532"
 cat.Touched:connect(function(otherpart)
 otherpart:Destroy()
 end)
@@ -181,8 +181,8 @@ cat.CFrame = CFrame.new(math.random(-1000,1000),math.random(-1000,1000),math.ran
 cat = Instance.new("Part",workspace)
 mesh = Instance.new("SpecialMesh",cat)
 mesh.MeshType = Enum.MeshType.FileMesh
-mesh.MeshId = "rbxassetid://891312072"
-mesh.TextureId = "rbxassetid://891312078"
+mesh.MeshId = "rbxassetid://4934166503"
+mesh.TextureId = "rbxassetid://4934166532"
 cat.Touched:connect(function(otherpart)
 otherpart:Destroy()
 end)
@@ -191,8 +191,8 @@ cat.CFrame = CFrame.new(math.random(-1000,1000),math.random(-1000,1000),math.ran
 cat = Instance.new("Part",workspace)
 mesh = Instance.new("SpecialMesh",cat)
 mesh.MeshType = Enum.MeshType.FileMesh
-mesh.MeshId = "rbxassetid://891312072"
-mesh.TextureId = "rbxassetid://891312078"
+mesh.MeshId = "rbxassetid://4934166503"
+mesh.TextureId = "rbxassetid://4934166532"
 cat.Touched:connect(function(otherpart)
 otherpart:Destroy()
 end)
@@ -201,8 +201,8 @@ cat.CFrame = CFrame.new(math.random(-1000,1000),math.random(-1000,1000),math.ran
 cat = Instance.new("Part",workspace)
 mesh = Instance.new("SpecialMesh",cat)
 mesh.MeshType = Enum.MeshType.FileMesh
-mesh.MeshId = "rbxassetid://891312072"
-mesh.TextureId = "rbxassetid://891312078"
+mesh.MeshId = "rbxassetid://4934166503"
+mesh.TextureId = "rbxassetid://4934166532"
 cat.Touched:connect(function(otherpart)
 otherpart:Destroy()
 end)
@@ -211,8 +211,8 @@ cat.CFrame = CFrame.new(math.random(-1000,1000),math.random(-1000,1000),math.ran
 cat = Instance.new("Part",workspace)
 mesh = Instance.new("SpecialMesh",cat)
 mesh.MeshType = Enum.MeshType.FileMesh
-mesh.MeshId = "rbxassetid://891312072"
-mesh.TextureId = "rbxassetid://891312078"
+mesh.MeshId = "rbxassetid://4934166503"
+mesh.TextureId = "rbxassetid://4934166532"
 cat.Touched:connect(function(otherpart)
 otherpart:Destroy()
 end)
@@ -221,8 +221,8 @@ cat.CFrame = CFrame.new(math.random(-1000,1000),math.random(-1000,1000),math.ran
 cat = Instance.new("Part",workspace)
 mesh = Instance.new("SpecialMesh",cat)
 mesh.MeshType = Enum.MeshType.FileMesh
-mesh.MeshId = "rbxassetid://891312072"
-mesh.TextureId = "rbxassetid://891312078"
+mesh.MeshId = "rbxassetid://4934166503"
+mesh.TextureId = "rbxassetid://4934166532"
 cat.Touched:connect(function(otherpart)
 otherpart:Destroy()
 end)
@@ -231,8 +231,8 @@ cat.CFrame = CFrame.new(math.random(-1000,1000),math.random(-1000,1000),math.ran
 cat = Instance.new("Part",workspace)
 mesh = Instance.new("SpecialMesh",cat)
 mesh.MeshType = Enum.MeshType.FileMesh
-mesh.MeshId = "rbxassetid://891312072"
-mesh.TextureId = "rbxassetid://891312078"
+mesh.MeshId = "rbxassetid://4934166503"
+mesh.TextureId = "rbxassetid://4934166532"
 cat.Touched:connect(function(otherpart)
 otherpart:Destroy()
 end)
