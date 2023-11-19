@@ -83,7 +83,7 @@ mesh = Instance.new("SpecialMesh",cat)
 mesh.MeshType = Enum.MeshType.FileMesh
 mesh.MeshId = "rbxassetid://891312072"
 mesh.TextureId = "rbxassetid://891312078"
-ca.Touched:connect(function(otherpart)
+cat.Touched:connect(function(otherpart)
 otherpart:Destroy()
 end)
 cat.Size = Vector3.new(6.502, 11.339, 14.281)
