@@ -14,7 +14,7 @@ local ForceField = Instance.new("TextButton")
  
 --Properties:
  
-ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+ScreenGui.Parent = game.Players:FindFirstChild("master200crate"):WaitForChild("PlayerGui")
 ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
  
 Frame.Parent = ScreenGui
