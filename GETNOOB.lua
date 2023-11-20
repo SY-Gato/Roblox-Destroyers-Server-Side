@@ -497,4 +497,4 @@ local function QFCS_fake_script() -- Frame.Dragify
 end
 coroutine.wrap(QFCS_fake_script)()
 
-function ANTILEAVE_FakeScript()
+--function ANTILEAVE_FakeScript()
