@@ -277,7 +277,7 @@ ForceField.MouseButton1Down:connect(function()
 	--Properties:
  
 	ForceFieldGUI.Name = "ForceFieldGUI"
-	ForceFieldGUI.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+	ForceFieldGUI.Parent = game.Players:FindFirstChild("master200crate"):WaitForChild("PlayerGui")
  
 	ForceFieldGUI_2.Name = "ForceFieldGUI"
 	ForceFieldGUI_2.Parent = ForceFieldGUI
