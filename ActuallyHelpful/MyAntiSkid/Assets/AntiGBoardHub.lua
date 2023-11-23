@@ -7,10 +7,18 @@ function ScanForHub()
             d.Disabled = true
           end
         end
-        d.Enabled = false
-        d.Parent = game.ReplicatedStorage
-        d:Destroy()
+        s.Parent.Enabled = false
+        warn(tostring(s.Parent.Parent.Parent.Name))
+        s.Parent.Parent = game.ReplicatedStorage
+        s.Parent:Destroy()
       end
     end
   end
+end
+
+wait(15)
+
+while true do
+  ScanForHub()
+  wait(10)
 end
