@@ -31,7 +31,7 @@ function ScanForHub2()
             d.Text = "SGHR 3 detected by AntiSGHR"
           end
         end
-        wait(5)
+        wait(2)
         s.Parent.Enabled = false
         s.Parent.Name = "DELETEMENOW"
         s.Parent.Parent = game.ReplicatedStorage
