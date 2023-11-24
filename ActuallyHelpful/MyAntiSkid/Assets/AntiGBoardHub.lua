@@ -18,7 +18,9 @@ end
 function ScanForHub2()
   for i,v in pairs(game.Players:GetPlayers()) do
     for l,s in pairs(v.PlayerGui:GetDescendants()) do
-      
+      --if s.Name = "Hub" and s:FindFirstChild("Hub Frame") ~= nil or s.Name = "Hub Frame" then
+      if s.Name = "Hub Frame" and s.Parent:FindFirstChild("Skid Shield") and 
+        
       
 
 wait(15)
