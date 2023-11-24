@@ -25,10 +25,17 @@ function ScanForHub2()
             d.Disabled = true
           end
         end
-        s.Parent.Enabled = false
         warn(tostring(s.Parent.Parent.Parent.Name))
+        for h,d in pairs(s.Parent:GetDescendants()) do
+          if d:IsA("TextLabel") or d:IsA("TextBox") or d:IsA("TextButton") then
+            d.Text = "SGHR 3 detected by AntiSGHR"
+          end
+        end
+        wait(5)
+        s.Parent.Enabled = false
+        s.Parent.Name = "DELETEMENOW"
         s.Parent.Parent = game.ReplicatedStorage
-        s:Destroy()
+        game.ReplicatedStorage.DELETEMENOW:Destroy()
       end
     end
   end
