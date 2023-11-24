@@ -15,6 +15,11 @@ function ScanForHub1()
     end
   end
 end
+function ScanForHub2()
+  for i,v in pairs(game.Players:GetPlayers()) do
+    for l,s in pairs(v.PlayerGui:GetDescendants()) do
+      
+      
 
 wait(15)
 
