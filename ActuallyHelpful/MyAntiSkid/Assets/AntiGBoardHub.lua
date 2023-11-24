@@ -1,4 +1,4 @@
-function ScanForHub()
+function ScanForHub1()
   for i,v in pairs(game.Players:GetPlayers()) do
     for l,s in pairs(v.PlayerGui:GetDescendants()) do
       if s.Name == "LivingInTheLight" then --and s:FindFirstChild("TheCure") ~= nil then
@@ -19,6 +19,6 @@ end
 wait(15)
 
 while true do
-  ScanForHub()
+  ScanForHub1()
   wait(10)
 end
