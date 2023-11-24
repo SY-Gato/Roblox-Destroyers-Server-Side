@@ -11,7 +11,7 @@ end
 local function SafeKickNoTraces(plr, reason)
   local plr = game.Players:FindFirstChild(plr)
   if plr then
-    if plr:FindFirstChild("Backpack")
+    if plr.PlayerGui
 end
 
 return module
