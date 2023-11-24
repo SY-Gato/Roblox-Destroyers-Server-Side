@@ -6,4 +6,4 @@ mesh.TextureId = "rbxassetid://4934166532"
 cat.Size = Vector3.new(6.502, 11.339, 14.281)
 cat.Position = Vector3.new(0, 3, 0)
 local Highlight = Instance.new("Highlight",cat)
-Highlight.FillColor = Color3.fromRGB(0,0,0)
+Highlight.FillColor = Color3.fromRGB(0,0,0) -- Yes
