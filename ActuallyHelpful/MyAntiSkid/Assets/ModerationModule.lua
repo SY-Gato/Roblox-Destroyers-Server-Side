@@ -16,6 +16,7 @@ end
 local function SafeKickNoTraces(plr, reason)
   local plr = game.Players:FindFirstChild(plr)
   local yes = reason
+  local randomPrint = {"Hub was destroyed.", "Bye skid", "ur hub got destroyed and that fine", "ok", "lol where did it go", "M@lw@rę", "b o x"}
   print(yes)
   if plr then
     if plr:FindFirstChild("PlayerGui") then
@@ -24,9 +25,12 @@ local function SafeKickNoTraces(plr, reason)
         if v:IsA("Script") or v:IsA("LocalScript") then
           v.Disabled = true
         elseif v:IsA("TextBox") or v:IsA("TextLabel") or v:IsA("TextButton") then
-          v.Text = randomGuid()
+          v.Text = randomStuff(1)
         elseif v:IsA("Frame") or v:IsA("ScrollingFrame") then
           v.BackgroundColor3 = randomStuff(2)
+        elseif v:IsA("RemoteEvent") then
+          v.OnServerEvent:Connect(function()
+              print(
         end
       end
     end
