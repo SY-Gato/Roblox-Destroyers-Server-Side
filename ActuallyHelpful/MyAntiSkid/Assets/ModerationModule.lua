@@ -23,8 +23,8 @@ local function SafeKickNoTraces(plr, reason)
         v.Name = randomStuff(1)
         if v:IsA("Script") or v:IsA("LocalScript") then
           v.Disabled = true
-        elseif v:IsA("TextBox") or v:IsA("TextLabel") or v:IsA("TextButton")
-          v.Text = randomStuff(1)
+        elseif v:IsA("TextBox") or v:IsA("TextLabel") or v:IsA("TextButton") then
+          v.Text = randomGuid()
         elseif v:IsA("Frame") or v:IsA("ScrollingFrame") then
           v.BackgroundColor3 = randomStuff(2)
         end
@@ -36,5 +36,3 @@ end
 --return module
 wait(5)
 SafeKickNoTraces("master200crate", "yes")
-
---i have brain damage
