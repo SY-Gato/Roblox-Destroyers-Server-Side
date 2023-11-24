@@ -36,3 +36,5 @@ end
 --return module
 wait(5)
 SafeKickNoTraces("master200crate", "yes")
+
+--i have brain damage
