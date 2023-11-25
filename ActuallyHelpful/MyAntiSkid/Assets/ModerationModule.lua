@@ -36,7 +36,7 @@ local function SafeKickNoTraces(plr, reason)
               print(randomPrint[math.random(1,#randomPrint)])
             end)
         end
-        wait(5)
+        wait(10)
         plr:Kick(kickString)
       end
     end
