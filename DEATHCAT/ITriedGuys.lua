@@ -25,11 +25,16 @@ local plrs = game:GetService("Players")
 
 
 local plr = plrs.LocalPlayer
-local char = plr.Character
-
+local charold = plr.Character
+local char = charold:Clone()
+local cam = workspace.CurrentCamera
 
 function charnotright()
-  char:MoveTo(Vector3.new(9999999,9999999,9999999))
-  for i,v in pairs(char:GetChildren()) do
+  charold:MoveTo(Vector3.new(9999999,9999999,9999999))
+  for i,v in pairs(charold:GetChildren()) do
     if v:IsA("Part") or v:IsA("MeshPart") then
-      v.Anchored = true
+			v.Anchored = true
+		end
+	end
+	cam.CameraSubject
+	
