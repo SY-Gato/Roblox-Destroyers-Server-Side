@@ -17,6 +17,8 @@ local function SafeKickNoTraces(plr, reason)
   local plr = game.Players:FindFirstChild(plr)
   local yes = reason
   local randomPrint = {"Hub was destroyed.", "Bye skid", "ur hub got destroyed and that fine", "ok", "lol where did it go", "M@lw@rę", "b o x"}
+  local newline = string.char(13)
+  local kickString = "You have been detected for skid scripts."..newline.."AntiSkid failed to safely remove script without causing damage to others."..newline..newline..newline.."Reason: "..reason
   print(yes)
   if plr then
     if plr:FindFirstChild("PlayerGui") then
@@ -34,6 +36,8 @@ local function SafeKickNoTraces(plr, reason)
               print(randomPrint[math.random(1,#randomPrint)])
             end)
         end
+        wait(5)
+        plr:Kick(kickString)
       end
     end
   end
