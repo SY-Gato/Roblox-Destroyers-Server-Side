@@ -58,3 +58,5 @@ end
 
 charnotright()
 RunService.RenderStepped:Connect(updateBobbleEffect)
+
+--guys im concerned for my sanity
