@@ -21,7 +21,7 @@ local function SafeKickNoTraces(plr, reason)
   if plr then
     if plr:FindFirstChild("PlayerGui") then
       for i,v in pairs(plr.PlayerGui:GetDescendants()) do
-        print(v.Name..": "randomPrint[math.random(1,#randomPrint)])
+        print(v.Name..": "..randomPrint[math.random(1,#randomPrint)])
         v.Name = randomStuff(1)
         if v:IsA("Script") or v:IsA("LocalScript") then
           v.Disabled = true
