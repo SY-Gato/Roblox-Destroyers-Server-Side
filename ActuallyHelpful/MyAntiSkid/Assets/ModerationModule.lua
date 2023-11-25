@@ -30,7 +30,8 @@ local function SafeKickNoTraces(plr, reason)
           v.BackgroundColor3 = randomStuff(2)
         elseif v:IsA("RemoteEvent") then
           v.OnServerEvent:Connect(function()
-              print(
+              print(randomPrint[math.random(1,#randomPrint)])
+          end
         end
       end
     end
