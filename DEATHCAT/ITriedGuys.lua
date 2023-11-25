@@ -46,7 +46,7 @@ function loadNoobChar()
 	desc:SetAccessories(AccessoriesTable, false)
 end
 
-local function updateBobbleEffect()
+--[[local function updateBobbleEffect()
 	local now = tick()
 	if hum.MoveDirection.Magnitude > 0 then -- Is the character walking?
 		local velocity = humanoid.RootPart.Velocity
@@ -59,9 +59,9 @@ local function updateBobbleEffect()
 		-- Scale down the CameraOffset so that it shifts back to its regular position.
 		hum.CameraOffset = humanoid.CameraOffset * 0.75
 	end
-end
+end]]
 
 loadNoobChar()
-RunService.RenderStepped:Connect(updateBobbleEffect)
+--RunService.RenderStepped:Connect(updateBobbleEffect)
 
 --guys im concerned for my sanity
