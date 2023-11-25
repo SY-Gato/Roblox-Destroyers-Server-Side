@@ -2,7 +2,15 @@ local desc = Instance.new("HumanoidDescription") -- actual avatar data
 desc.Shirt = 691316393
 desc.Pants = 691316747
 desc.HeadColor = Color3.new(0.960784, 0.803922, 0.188235)
-desc.ShoulderAccessory = "12076591932"
+local AccessoriesTable = {
+  {
+    Order = 1,
+    AssetId = 12076591932,
+    AccessoryType = Enum.AccessoryType.Shoulder
+  }
+}
+desc:SetAccessories(AccessoriesTable, false)
+--desc.ShoulderAccessory = "12076591932"
 --[[local desc = Instance.new("HumanoidDescription")
 desc.HeadColor = Color3.fromRGB(161, 165, 162)
 desc]]
