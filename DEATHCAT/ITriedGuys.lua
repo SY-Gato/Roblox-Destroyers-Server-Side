@@ -18,7 +18,7 @@ function sendCoreMsg(title, text, button1, duration) --button2, duration)
   end]]
 end
 
-SendCoreMsg("DeathCat", "you run DeathCat", "yipeeee", 20) -- Script startup msg ???
+sendCoreMsg("DeathCat", "you run DeathCat", "yipeeee", 20) -- Script startup msg ???
 
 local RepStorage = game:GetService("ReplicatedStorage")
 local plrs = game:GetService("Players")
