@@ -1,7 +1,8 @@
 local desc = Instance.new("HumanoidDescription") -- actual avatar data
 desc.Shirt = 691316393
 desc.Pants = 691316747
-desc.HeadColor = Color3.new(0.960784, 0.803922, 0.188235)
+--desc.HeadColor = Color3.new(0.960784, 0.803922, 0.188235)
+desc.Head = 14766408454
 local AccessoriesTable = {
   {
     Order = 1,
