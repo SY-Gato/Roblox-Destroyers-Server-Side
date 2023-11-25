@@ -12,6 +12,7 @@ function Spin()
         end
       end
     end
+    wait(0.01)
   end
 end
 wait(10)
