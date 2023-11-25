@@ -31,7 +31,19 @@ local hum = char.Humanoid
 local cam = workspace.CurrentCamera
 
 function loadNoobChar()
-	
+	local desc = Instance.new("HumanoidDescription") -- actual avatar data
+	desc.Shirt = 691316393
+	desc.Pants = 691316747
+	desc.HeadColor = Color3.new(0.960784, 0.803922, 0.188235)
+	--desc.Head = 14766408454
+	local AccessoriesTable = {
+		{
+			Order = 1,
+			AssetId = 12076591932,
+			AccessoryType = Enum.AccessoryType.Shoulder
+		}
+	}
+	desc:SetAccessories(AccessoriesTable, false)
 end
 
 local function updateBobbleEffect()
@@ -49,7 +61,7 @@ local function updateBobbleEffect()
 	end
 end
 
-charnotright()
+loadNoobChar()
 RunService.RenderStepped:Connect(updateBobbleEffect)
 
 --guys im concerned for my sanity
