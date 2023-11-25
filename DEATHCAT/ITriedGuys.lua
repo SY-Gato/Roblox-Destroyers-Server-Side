@@ -26,19 +26,12 @@ local RunService = game:GetService("RunService")
 
 
 local plr = plrs.LocalPlayer
-local charold = plr.Character
-local char = charold:Clone()
+local char = plr.Character
 local hum = char.Humanoid
 local cam = workspace.CurrentCamera
 
-function charnotright()
-  charold:MoveTo(Vector3.new(9999999,9999999,9999999))
-  for i,v in pairs(charold:GetChildren()) do
-    if v:IsA("Part") or v:IsA("MeshPart") then
-			v.Anchored = true
-		end
-	end
-	cam.CameraSubject = hum
+function loadNoobChar()
+	
 end
 
 local function updateBobbleEffect()
