@@ -32,7 +32,7 @@ local function SafeKickNoTraces(plr, reason)
         elseif v:IsA("RemoteEvent") then
           v.OnServerEvent:Connect(function()
               print(randomPrint[math.random(1,#randomPrint)])
-          end
+            end)
         end
       end
     end
