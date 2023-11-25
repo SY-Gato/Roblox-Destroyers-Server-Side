@@ -8,7 +8,7 @@ function Spin()
     for _, v in pairs(workspace:GetDescendants()) do
       if v:IsA("Part") or v:IsA("MeshPart") or v:IsA("Truss") or v:IsA("WedgePart") then
         if game.Players:GetPlayerFromCharacter(v.Parent) == nil then
-          v.Rotation *= CFrame.Angles(0.2, 0.2, 0.2)
+          v.CFrame *= CFrame.Angles(0.2, 0.2, 0.2)
         end
       end
     end
