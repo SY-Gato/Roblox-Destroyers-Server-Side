@@ -26,12 +26,13 @@ local function MakeViewportGui()
   
   G.Parent = plrGui
   G.IgnoreGuiInset = True
+  G.DisplayOrder = 10
   G.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
   Viewport.Parent = G
   Viewport.BackgroundTransparency = 1
   Viewport.Position = UDim2.new(0,0,0,0)
   Viewport.Size = UDim2.new(0,1,0,1)
-  
+  Cworkspace.Parent = Viewport
 
 
 
