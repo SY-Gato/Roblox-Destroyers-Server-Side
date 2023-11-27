@@ -21,8 +21,8 @@ local IgnoreWhitelist = true
 
 -- Command Function
 local function FindName(Str)
-  if Priority == 1 then
-    
+  for i,v in pairs(Plrs:GetPlayers()) do
+    if Priority
 
 
 local function KickPlr(plr, reason)
