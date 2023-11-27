@@ -21,11 +21,11 @@ local IgnoreWhitelist = true
 
 -- Command Function
 local function FindName(str)
+  local Status, String
   for i,v in pairs(Plrs:GetPlayers()) do
     local short
     if Priority == 1 then short = v.DisplayName else short = v.Name end
     local t, y = string.find(short, str)
-    local Status, String
     if t ~ nil then
       Status = true
       String = string.sub(short, t, y)
@@ -34,8 +34,8 @@ local function FindName(str)
       Status = false
       String = nil
     end
-    return Status, String
   end
+  return Status, String
 end
 
 local function KickPlr(plr, reason)
