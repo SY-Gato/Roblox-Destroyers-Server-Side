@@ -20,10 +20,23 @@ local Whitelist = {"master200crate"}
 local IgnoreWhitelist = true
 
 -- Command Function
-local function FindName(Str)
+local function FindName(str)
   for i,v in pairs(Plrs:GetPlayers()) do
-    if Priority
-
+    local short
+    if Priority == 1 then short = v.DisplayName else short = v.Name end
+    local t, y = string.find(short, str)
+    local Status, String
+    if t ~ nil then
+      Status = true
+      String = string.sub(short, t, y)
+      print(String)
+    else
+      Status = false
+      String = nil
+    end
+    return Status, String
+  end
+end
 
 local function KickPlr(plr, reason)
   if Priority == 1 then
