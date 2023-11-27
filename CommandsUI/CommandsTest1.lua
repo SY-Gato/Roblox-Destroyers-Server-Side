@@ -13,11 +13,18 @@ local hum = char:FindFirstChildOfClass("Humanoid")
 local hrp = char:FindFirstChild("HumanoidRootPart")
 
 -- Variables for searching and syntax
-local Priority = "DisplayName"
+local Priorities = {"DisplayName", "Username"}
+local Priority = 1 -- 1 is DisplayName, 2 is Username
 local Syntax = "" -- Currently No Syntax
 local Whitelist = {"master200crate"}
 local IgnoreWhitelist = true
 
 -- Command Function
+local function FindName(Str)
+  if Priority == 1 then
+    
+
+
 local function KickPlr(plr, reason)
-  if Priority == Dospla
+  if Priority == 1 then
+    
