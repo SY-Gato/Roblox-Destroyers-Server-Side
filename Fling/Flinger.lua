@@ -18,7 +18,7 @@ local TextButton = Instance.new("TextButton")
 local TextButton2 = Instance.new("TextButton")
 
 h.Name = "h"
-h.Parent = game:GetService("CoreGui")
+h.Parent = lp.PlayerGui
 h.ResetOnSpawn = false
 
 Main.Name = "Main"
@@ -101,7 +101,7 @@ local function fling(targ)
 			lp.Character.HumanoidRootPart.CFrame = Target.Character:FindFirstChild("Torso") or Target.Character:FindFirstChild("UpperTorso") --Target.Character.HumanoidRootPart.CFrame
 			Thrust.Location = Target.Character:FindFirstChild("Torso") or Target.Character:FindFirstChild("UpperTorso")
       timesDone += 1
-			game:FindService("RunService").Heartbeat:wait()
+			game:GetService("RunService").Heartbeat:wait()
 		until (not Target.Character:FindFirstChild("Torso") and not Target.Character:FindFirstChild("UpperTorso")) or (not lp.Character:FindFirstChild("HumanoidRootPart") and not lp.Character:FindFirstChild("Head")) or timesDone > (maxTimes-1)
 	else
 		notif("Invalid player")
@@ -113,6 +113,11 @@ TextButton.MouseButton1Click:Connect(function()
     if targ ~= lp then
       local originPos = lp.Character.PrimaryPart.CFrame
       fling(targ)
-      
+			game:GetService("RunService").Heartbeat:wait()
+      lp.Character.PrimaryPart.AssemblyLinearVelocity = Vector3.new(0, 0, 0)
+			lp.Character.PrimaryPart.AssemblyAngularVelocity = Vector3.new(0, 0, 0)
+			lp.Character.PrimaryPart.Anchored = true
+			wait(0.5)
+			lp.Character.PrimaryPart.Anchored = false
     end
 end)
