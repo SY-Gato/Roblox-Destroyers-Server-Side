@@ -1,5 +1,5 @@
 if not game:GetService("RunService"):IsClient() then error("Must be run as client") end
-power = 1900 -- change this to make it more or less powerful
+power = 7000 -- change this to make it more or less powerful
 
 game:GetService('RunService').Stepped:connect(function()
 game.Players.LocalPlayer.Character.Head.CanCollide = false
