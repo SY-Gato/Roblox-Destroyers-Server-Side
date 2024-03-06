@@ -6,6 +6,8 @@ game.Players.LocalPlayer.Character.Head.CanCollide = false
 game.Players.LocalPlayer.Character.UpperTorso.CanCollide = false
 game.Players.LocalPlayer.Character.LowerTorso.CanCollide = false
 game.Players.LocalPlayer.Character.HumanoidRootPart.CanCollide = false
+game.Players.LocalPlayer.Character.Humanoid:SetStateEnabled(Enum.HumanoidStateType.GettingUp,false)
+game.Players.LocalPlayer.Character.Humanoid:SetStateEnabled(Enum.HumanoidStateType.Ragdoll,false)
 end)
 wait(.1)
 local bambam = Instance.new("BodyThrust")
