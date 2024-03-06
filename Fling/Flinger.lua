@@ -3,7 +3,7 @@ local lp = plrs.LocalPlayer
 
 local function notif(str, dur)
   game:FindService("StarterGui"):SetCore("SendNotification", {
-      Title = "yeet gui",
+      Title = "Flinger",
       Text = str,
       Duration = dur or 3
     })
@@ -85,3 +85,34 @@ TextButton2.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextButton2.TextScaled = true
 TextButton2.TextSize = 14.000
 TextButton2.TextWrapped = true
+
+local function getplr(name)
+end
+local function fling(targ)
+	if targ then
+		Target = targ
+		
+		local Thrust = Instance.new('BodyThrust', lp.Character.HumanoidRootPart)
+		Thrust.Force = Vector3.new(power, power, power)
+		Thrust.Name = "YeetForce"
+    local timesDone = 1 -- DO NOT CHANGE
+    local maxTimes = 10
+		repeat
+			lp.Character.HumanoidRootPart.CFrame = Target.Character:FindFirstChild("Torso") or Target.Character:FindFirstChild("UpperTorso") --Target.Character.HumanoidRootPart.CFrame
+			Thrust.Location = Target.Character:FindFirstChild("Torso") or Target.Character:FindFirstChild("UpperTorso")
+      timesDone += 1
+			game:FindService("RunService").Heartbeat:wait()
+		until (not Target.Character:FindFirstChild("Torso") and not Target.Character:FindFirstChild("UpperTorso")) or (not lp.Character:FindFirstChild("HumanoidRootPart") and not lp.Character:FindFirstChild("Head")) or timesDone > (maxTimes-1)
+	else
+		notif("Invalid player")
+	end
+end
+
+TextButton.MouseButton1Click:Connect(function()
+    local targ = getplr(TextBox.Text)
+    if targ ~= lp then
+      local originPos = lp.Character.PrimaryPart.CFrame
+      fling(targ)
+      
+    end
+end)
